@@ -61,9 +61,9 @@ public class DindexerCost {
 					set2.retainAll(set1);
 					if(set2.isEmpty()) {
 						cost += c;
-					} else {
+					}/* else {
 						System.out.println(t1 + " and " + t2 + " are both in " + set2);
-					}
+					}*/
 				}
 			}
 		}

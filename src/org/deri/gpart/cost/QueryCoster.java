@@ -12,7 +12,7 @@ import java.util.Set;
 import com.hp.hpl.jena.query.QuerySolution;
 import com.hp.hpl.jena.query.ResultSet;
 
-public class DindexerCost {
+public class QueryCoster {
 	private static int c = 1;
 
 	private static Map<String, Set<String>> readPartitions(String path) throws Exception{
